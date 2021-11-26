@@ -1,0 +1,70 @@
+{
+    "ludiqueCard":[
+        {
+            "photo":"",
+            "nom":"Escape room",
+            "localisation":"Val d'Hydra",
+            "capacité":"10 personnes",
+            "prix":"1600DA/personne",
+            "description":"",
+            "durée":"",
+            "fourniture":"",
+            "parking":""
+        },
+        {
+            "photo":"",
+            "nom":"Alger peur",
+            "localisation":"Bordj elkiffan",
+            "capacité":"30 personnes",
+            "prix":"",
+            "description":"",
+            "durée":"",
+            "fourniture":"",
+            "parking":""
+        },
+        {
+            "photo":"",
+            "nom":"Laser Strake DZ",
+            "localisation":"Cheraga",
+            "capacité":"30 personnes",
+            "prix":"",
+            "description":"",
+            "durée":"",
+            "fourniture":"",
+            "parking":""
+        },
+        {
+            "photo":"",
+            "nom":"Paint Ball",
+            "localisation":"Bainem",
+            "capacité":"40 personnes",
+            "prix":"",
+            "description":"",
+            "durée":"",
+            "fourniture":"",
+            "parking":""
+        },
+        {
+            "photo":"",
+            "nom":"Karting Evasion",
+            "localisation":"Bordj el kiffan",
+            "capacité":"20 personnes",
+            "prix":"",
+            "description":"",
+            "durée":"",
+            "fourniture":"",
+            "parking":""
+        },
+        {
+            "photo":"",
+            "nom":"Gamer Club",
+            "localisation":"Ben Aknoun",
+            "capacité":"60 personnes",
+            "prix":"",
+            "description":"",
+            "durée":"",
+            "fourniture":"",
+            "parking":""
+        }
+    ]
+}

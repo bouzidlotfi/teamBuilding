@@ -1,0 +1,76 @@
+{
+    "atelCard":[
+        { 
+            "photo":"",
+            "nom":"L'haltelier",
+            "type":" Création de bijoux",
+            "description":"Vous devez assister a notre Qaeda, afin de découvrir le mystère de la création de bijoux, telque vous allez apprendre (les matériaux de base/ Créer votre propre bijou/ réaliser votre propre bijou ",
+            "parking":"Non",
+            "prix":"2000da/personne",
+            "durée":"1h30 jusqu'à 2h",
+            "capacité":"de 5 a 10 personnes",
+            "localisation":"Bir Mourad Rais",
+            "fourniture":"Matériel fourni et pause café offerte"  
+          },
+        { 
+          "photo":"",
+          "nom":"Atelier éphémère",
+          "type":"Poterie",
+          "description":"Atelier modelage et Poterie argile naturelle !... Venez découvrir le metiers d'un potier et l'art de la poterie, afin de vous initier dans les différentes technique de maitrse de la terre cuite.",
+          "parking":"Non",
+          "prix":"2000da/ personne",
+          "durée":"3h",
+          "capacité":"De 8 a 12 personne",
+          "localisation":"Bir Mourad Rais",
+          "fourniture":"Matériel fourni et pause café offerte"  
+          },      
+        { 
+          "photo":"",
+          "nom":"Atelier éphémère",
+          "type":"Origami",
+          "description":"Un atelier où vouz allez découvrir l'Origami l'art japonnais du pliage du papier, Et créer des bougeoire électrique",
+          "parking":"Non",
+          "prix":"1500da/ peronnes",
+          "durée":"3h",
+          "capacité":"De 8 a 12 personne",
+          "localisation":"Sebala, Draria",
+          "fourniture":"Matériel fourni et pause café offerte"  
+          },
+        { 
+            "photo":"",
+            "nom":"Atelier éphémère",
+            "type":"Peinture sur Mug",
+            "description":"La peinture sur Mug ou Assiettes c'est la tendance depuis toujurs, Vous allez donc personnaliser un joli Mug ou assiette en porcelaine avec votre créativité",
+            "parking":"Non",
+            "prix":"1500da/ personne",
+            "durée":"3h",
+            "capacité":"De 8 a 12 personnes",
+            "localisation":"Sebala, Draria",
+            "fourniture":"Matériel fourni et pause café offerte"      
+          },
+        { 
+          "photo":"",
+          "nom":"Cake me UP",
+          "type":"",
+          "description":"",
+          "parking":"",
+          "prix":"",
+          "durée":"",
+          "capacité":"",
+          "localisation":"",
+          "fourniture":"Matériel fourni et pause café offerte"  
+          },
+        { 
+            "photo":"",
+          "nom":"",
+          "type":"",
+          "description":"",
+          "parking":"",
+          "prix":"",
+          "durée":"",
+          "capacité":"",
+          "localisation":"",
+          "fourniture":"Matériel fourni et pause café offerte"  
+          }
+    ]
+}

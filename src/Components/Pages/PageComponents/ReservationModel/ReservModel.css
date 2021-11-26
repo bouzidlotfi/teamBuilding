@@ -1,0 +1,149 @@
+#reserveBack{
+    width: 100%;
+    height: 89%;
+    position: fixed;
+    top: 70px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ReservModel{
+    width: 99%;
+    height: 99%;
+    display: flex;
+    justify-content: space-between;
+} 
+.XResBtn{
+    position: fixed;
+    right: 20px;
+    top: 80px;
+}
+.ReservHow{
+    margin-top: 70px;
+    height: 65%;
+    width: 30.5%;
+    background-color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+    border:1px solid crimson; 
+}
+.ReservHow li{
+    list-style-type: none;
+    padding-bottom:10px;
+    font-size: 17px;
+}
+.ReservHow h4{
+    padding-bottom:20px;
+}
+.ReservForm{
+    height: 100%;
+    width: 69%;
+    display: flex;
+    background-color: white;
+}
+.ReservForm h4{
+    padding-bottom:20px;
+}
+.EntrpInfo{
+    padding-top: 15px;
+    padding-left: 15px;
+    height: 100%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+.EntrpInfo input{
+    margin-bottom: 20px;
+    height: 7%;
+    width: 70%;
+    /* border-bottom:1px solid rgb(90, 89, 89);
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px; */
+}
+.EvenInfo{
+    padding-left: 15px;
+    padding-top: 15px;
+    height: 100%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid crimson;
+}
+#timeInterval{
+    display: flex;
+    display: flex;
+    height: 10%;
+}
+#timeInterval input{
+    height: 60%;
+    width: 60%;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#timeDe{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+#timeA{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.EvenInfo input{
+    margin-bottom: 20px;
+    height: 7%;
+    width: 70%;
+}
+.resrvBtn{
+    position: relative;
+    top:80px;
+    left: 100px;
+    height:12%;
+    width: 50%;
+    border-radius:15px;
+    font-size: 22px;
+    border: 2px solid crimson;
+    padding-top: 2px;
+    padding-left: 40px;
+    transition: .7s;
+    display: flex;
+    background-color:white;
+}
+.resrvBtn:hover{
+    background-color:crimson;
+    color: white;
+    cursor: pointer;
+}
+#sendIcon{
+    margin-left: 10px;
+    color:crimson
+}
+.resrvBtn:hover #sendIcon{
+    color:white;
+    transition: .7s;
+}
+#recommander{
+    margin-top:20px;
+    display: flex;
+    flex-direction: column;
+}
+#partNbr{
+    width: 40%;
+}
+.ReservModel input{
+    font-size: 18px;
+}
+.EvenInfo p{
+    position: fixed;
+    top:93vh
+}
+#recommander textarea{
+    width: 120%;    
+}
+.EntrpInfo p{
+    position: fixed;
+    top:93vh
+}

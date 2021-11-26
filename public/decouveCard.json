@@ -1,0 +1,79 @@
+{
+    "decouveCard":[
+        {
+            "photo":"",
+            "nom":"Cap evasion",
+            "type":"Sortie Quad",
+            "localisation":"Tipaza",
+            "capacité":"15 personnes",
+            "prix":"DA/personne",
+            "durée":"",
+            "parking":"",
+            "fourniture":"",
+            "description":""
+        },
+        {
+            "photo":"",
+            "nom":"",
+            "type":"",
+            "localisation":"",
+            "capacité":"",
+            "prix":"da/ personne",
+            "details":"",
+            "durée":"",
+            "parking":"",
+            "fourniture":"",
+            "description":"" 
+        },
+        {
+            "photo":"",
+            "nom":"Nhawsso",
+            "type":"Kayak",
+            "localisation":"Tipaza",
+            "capacité":"16 personnes",
+            "prix":"1500DA/personne",
+            "durée":"",
+            "parking":"",
+            "fourniture":"",
+            "description":""
+        },
+        {
+            "photo":"",
+            "nom":"Activité aquatique",
+            "type":"Paddle géant",
+            "localisation":"Chenoua, Tipaza",
+            "capacité":"8 personnes",
+            "prix":"1000DA/personne",
+            "durée":"",
+            "parking":"",
+            "fourniture":"",
+            "description":""
+        },
+        {
+            "photo":"",
+            "nom":"Activité aquatique",
+            "type":"Bouée",
+            "localisation":"Chenoua, Tipaza",
+            "capacité":"Appuyer pour savoir",
+            "bouée1":"Rotatif 2000da/ personne",
+            "bouée2":"Flyfish 3000da/ personne",
+            "bouée3":"La banane 1000da/ personne",
+            "durée":"",
+            "parking":"",
+            "fourniture":"",
+            "description":""
+        },
+        {
+            "photo":"",
+            "nom":"Sec17",
+            "type":"Plogée sous marine",
+            "localisation":"Chenoua, Tipaza",
+            "capacité":"5 personnes",
+            "prix":"2500DA/personne",
+            "durée":"2h",
+            "parking":"",
+            "fourniture":"",
+            "description":""
+        }
+    ]
+}

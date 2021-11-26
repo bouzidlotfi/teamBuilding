@@ -1,0 +1,101 @@
+.SidebarModel{
+    position: fixed;
+    width: 100%;
+}
+.sideContent{
+    height:75vh;
+    width:3%;
+    border-radius: 20px;
+    background-color: black;
+    margin-left: 5px;
+    margin-top: 20px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition:1.5s;
+}
+.sideContent:hover{
+    width:16%;
+    background-color:rgba(0, 0, 0, .9) 
+}
+.sideContent ul{
+    height:100%;
+    list-style-type: none;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center
+}
+.logoItems{
+    border-radius: 25px;
+    height:90%;
+    width:80%;
+    color:#fff;
+}
+.logoItems li{
+    cursor:default;
+}
+.contItems{
+    height:90%;
+    display: none;
+    color: white;
+}
+.contItems ul{
+    border-left: 2px solid white;
+    margin-left: 10px;
+    padding-left: 5px;
+    display: flex;
+    align-items: flex-start;
+
+}
+.contItems li{
+    width:90%;
+    opacity: 0;
+    transform: translateX(-250%);
+    animation: slidein 1.5s ease-in-out forwards; 
+    border-radius: 5px;
+}
+.lol{
+    font-size:18px;
+}
+.lol:hover{
+    background-color:rgb(128, 128, 131);
+    transition:.5s;
+    /* color: black; */
+    /* color:red */
+
+}
+li:focus{
+    background-color:white
+}
+@keyframes slidein{
+    from {
+        opacity: 0;
+        transform: translateX(-250%)
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.sideContent:hover .contItems{
+    width:70%;
+    display: block;
+}
+
+.sideContent:hover .logoItems{
+    width:20%;
+    color:black;
+    background-color: white
+}
+.barItems li{
+    color: white;
+    width:80%;
+    height:9%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

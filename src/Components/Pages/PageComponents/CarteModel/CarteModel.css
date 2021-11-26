@@ -1,0 +1,87 @@
+.CarteModel{
+    width:280px;
+    height:370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-top-right-radius:20px;
+    border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
+    background-color: rgb(250, 245, 245);
+}
+
+.CartePic{
+    width:100%;
+    height:60%;
+    border-top-right-radius:20px;
+    border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
+    background-image: url(fitcoffee.PNG);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+}
+#clickMe{
+    background-color: white;
+    width:30%;
+    position: relative;
+    top:70px;
+    left:120px;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s;
+    cursor: pointer;
+}
+.CarteModel:hover #clickMe{
+    visibility: visible;
+    opacity: 1;   
+}
+.CarteDesc{
+    height: 50%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.CarteModel:hover .CarteDesc{
+    /* opacity: 0.3; */
+    transition: 1.5s;
+}
+
+.actName{
+    height:40%;
+    font-weight:600;
+    font-size:18px;
+}
+.actProp{
+    height:60%;
+    position: relative;
+    top:10px
+}
+.cartProp{
+    font-weight:600;
+    font-size:16px;
+}
+.actCap { 
+    display: flex;
+}
+.actLoc {
+    display: flex;
+}
+.actCont{
+    display: flex;
+}
+.saveIcon{
+    display:flex;
+    justify-content: flex-end;
+    width:10%;
+    position: relative;
+    top:-8px;
+    left:230px
+}
+.saveIcon:hover{
+    cursor: pointer;
+}

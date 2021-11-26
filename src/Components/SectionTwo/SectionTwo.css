@@ -1,0 +1,134 @@
+.SectionTwo{
+    margin-top: 50px;
+    width: 100%;
+    height:240vh;
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+   /* background-color:rgb(231, 224, 224); */
+}
+
+.SectionTwo-content{
+    height:100%;
+    width:75%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+.serviceTitle{
+    width: 100%;
+    padding-top: 30px;
+    margin-bottom: 40px;
+    font-size: 26px;
+    font-weight:bold;
+    letter-spacing:3px;
+    text-transform: capitalize;
+}
+#allCarts{
+    height:100%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.GenCarte{
+    width:100%;
+    height: 18%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cartPicture{
+    height: 90%;
+    width: 35%;
+    background-position:center;
+    background-size: cover;
+}
+.cartDescrip{
+    height: 100%;
+    width: 60%;
+}
+.cartit{
+    padding-top: 15px;
+    font-size:18px;
+    font-weight:bold;
+    margin-bottom: 10px;
+}
+.cartBtn{
+    width:16%;
+    height:15%;
+}
+.cart1 .cartBtn{
+    position: relative;
+    left:480px;
+}
+.cart2 .cartBtn{
+    position: relative;
+    left:520px;
+    top:30px;
+}
+.cart3 .cartBtn{
+    position: relative;
+    left:480px;
+}
+.cart4 .cartBtn{
+    position: relative;
+    left:520px;
+    top:30px;
+}
+.cart5 .cartBtn{
+    position: relative;
+    left:480px;
+} 
+.plusBtn{
+    width:100%;
+    height:100%;
+    border: 1.5px solid crimson;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    background-color:white;
+}
+.plusBtn:hover{
+    background-color: crimson;
+    color:white;
+    transition: 1s;
+} 
+.cartit p{
+    font-weight:500;
+}
+#exempleCart{
+    margin-left: 20px;
+}
+.ludiquePic{
+    background-image: url(ludique.jpg);
+    background-position:center;
+    background-size: cover;
+}
+.sportPic{
+    background-image: url(actSport.jpg);
+    background-position:center;
+    background-size: cover;    
+}
+.restauPic{
+    background-image: url(fitcoffee.PNG);
+    background-position:center;
+    background-size: cover;
+}
+.decouvPic{
+    background-image: url(Aventure.PNG);
+    background-position:center;
+    background-size: cover;
+}
+.atelPic{
+    background-image: url(atelier.jpg);
+    background-position:center;
+    background-size: cover;
+}
+.transportPic{
+    background-image: url(bus01.jpg);
+    background-position:center;
+    background-size: cover;
+}

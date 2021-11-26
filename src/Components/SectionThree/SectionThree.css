@@ -1,0 +1,88 @@
+.SectionThree{
+    width:100%;
+    height:200vh;
+    display:flex;
+    align-items: center;
+    margin-top:0px
+}
+.SectionThreeContent{
+    width:95%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#content1{
+    width:100%;
+    height:50%;
+    display:flex;
+}
+.globalDesc{
+    height:100%;
+    width:50%;
+    padding-left:30px;
+    padding-top: 30px;
+}
+.SectionThreeContent h4{
+    margin-left: 30px;
+    color:crimson;
+    font-size: 26px;
+    font-weight:bold;
+}
+.SectionThreeContent p{
+    font-size: 22px;
+}
+.globalPic{
+    height:80%;
+    width:45%;
+    background-image:url(globalPic2.png);
+    background-position: center;
+    background-size: cover;
+    margin-left: 32px;
+    margin-top: 40px;
+}
+#content2{
+    height:32%;
+    display: flex;
+    font-size:22px;
+    justify-content: space-evenly;
+}
+#part1{
+    height:100%;
+    width:45%;
+}
+#part2{
+    height:100%;
+    width:50%;
+    padding-left:30px;
+    padding-top:50px;
+}
+#descPart2{
+    width:100%;
+    height:100%;
+}
+#picPart2{
+    width:60%;
+    height:60%;
+    position: relative;
+    top:-265px;
+    left:240px;
+    background-image: url(bus01.jpg);
+    background-size:cover;
+    background-position: center;
+}
+#descPart1{
+    height:100%;
+    padding-left:30px;
+    padding-top:10px;
+}
+.resTransp{
+    border: 0px;
+    width:25%;
+    margin-left:100px;
+    color: crimson;
+    text-decoration: underline;
+    font-size: 24px;
+    letter-spacing: 2px;
+    background-color: white;
+}

@@ -1,0 +1,52 @@
+#infoBack{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   background-color:rgb(231, 224, 224);
+    width: 99vw;
+    height:90vh;
+    position: fixed;
+    left:0px;
+    z-index: 3;
+    top:70px;
+}
+.infoPage{
+    width: 88%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white
+}
+.XInfoBtn{
+    position: fixed;
+    right:80px;
+    top:100px;
+    /* z-index: 10; */
+}
+.morePic{
+    height: 100%;
+    width: 47%;
+    /* background-color: rgb(128, 89, 39); */
+    border-left: 1px solid crimson;
+}
+.moreInfo{
+    height: 100%;
+    width: 47%;
+    border-right: 1px solid crimson;
+}
+.specialInfo{
+    background-color: aqua;
+    height: 90%;
+}
+.reservBtn{
+    height: 10%;
+}
+.reservBtn button{
+    border: 0px;
+    color:crimson;
+    text-decoration: underline;
+    font-size: 20px;
+    margin-left: 350px;
+    margin-top: 10px;
+    background-color: white;
+}

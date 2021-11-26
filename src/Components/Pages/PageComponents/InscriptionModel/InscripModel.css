@@ -1,0 +1,100 @@
+.inscripPAge{
+    width:80%;
+    height:90vh;
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+}
+#backInscrip{
+    position: fixed;
+    top: 70px;
+    height: 89vh;
+}
+.XIscripBtn{
+    cursor: pointer;
+    position: fixed;
+    top: 70px;
+    right: 130px;
+    width: 3%;
+    height: 4%;
+}
+.inscripPic{
+    width: 40%;
+    height: 100%;
+    background-color:Black;
+    background-image: url(inscrip.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.inscripForm{
+    width: 55%;
+    height: 100%;
+}
+.InscripTo{
+    height: 15%;
+    width: 80%;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    font-size: 46px;
+    letter-spacing: 2px;
+    color: crimson
+}
+#inscripForm{
+    height: 60%;
+}
+#inscripForm input{
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 1px solid  grey;
+    height: 35%;
+}
+#InscForm1{
+    width: 43%;
+    height:35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#InscForm2{
+    width: 95%;
+    height:30%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+#InscForm2 input{
+    height: 40%;
+    width: 45%;
+}
+#InscForm3{
+    width: 43%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.inscripBtn{
+    margin-top: 30px;
+    padding-left: 200px;
+}
+#inscripBtn{
+    border-color: crimson;
+    height: 8%;
+    width: 40%;
+    border-radius: 15px;
+    font-size:20px;
+    font-weight:500;
+    transition: .6s;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color:white;
+}
+#inscripBtn:hover{
+    background-color:crimson;
+    color: white;
+}

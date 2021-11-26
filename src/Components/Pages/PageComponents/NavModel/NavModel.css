@@ -1,0 +1,101 @@
+.NavModel{
+    width:100%;
+    height:18vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    display:flex;
+    flex-direction:column;
+    position:sticky;
+    top: 0;
+    z-index:2;
+}
+.NavContent1{
+    height:60%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: white;
+}
+.NavContent2{
+    height:40%;
+    width:100%;
+    background-color:black;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    color: white;
+}
+.navTitre{
+    letter-spacing:4px;
+    font-size:22px;
+    font-weight:bolder;
+}
+.navLogo{
+    width:10%;
+    height:90%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.NavIcons{
+    width: 12%;
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+.navTitle{
+    width: 40%;
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+.NavSlogon{
+    height:100%;
+    width: 40%;
+    color: white;
+    font-family: 'Pattaya', sans-serif;
+    font-size:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    letter-spacing: 2px;
+}
+
+.navBtn{
+    width: 20%;
+    height:60%;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+.inscBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 45%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right:1px solid white;
+}
+.inscBtn:hover{
+    cursor:pointer;
+}
+.identBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 45%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.identBtn:hover{
+    cursor:pointer;
+}
